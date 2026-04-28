@@ -1,74 +1,81 @@
-# 📊 Sales Data Analysis using SQL
+# 📊 Sales Data Analysis (SQL + Power BI)
 
 ## 📌 Overview
 
-This project focuses on analyzing sales data using SQL. The goal is to clean the dataset and extract meaningful business insights using structured queries.
+This project analyzes sales data using SQL and visualizes insights using Power BI. The goal is to clean raw data, perform analysis, and present insights through an interactive dashboard.
 
 ---
 
 ## 🎯 Objectives
 
-* Perform data cleaning using SQL
-* Validate data quality (null values, duplicates)
-* Analyze sales performance
-* Generate business insights
+* Clean and validate data using SQL
+* Perform data analysis using SQL queries
+* Create an interactive dashboard using Power BI
+* Generate meaningful business insights
 
 ---
 
 ## 🛠 Tools Used
 
 * SQL (MySQL)
+* Power BI
 * CSV Dataset
 
 ---
 
-## 🧹 Data Cleaning
+## 🧹 Data Cleaning (SQL)
 
-The dataset was cleaned using SQL queries:
-
-* Standardized text fields (city, category) using `UPPER()` and `TRIM()`
+* Standardized text fields using `UPPER()` and `TRIM()`
 * Checked for NULL values
 * Verified duplicate records
 
 ---
 
-## 📊 Data Analysis
+## 📊 Data Analysis (SQL)
 
-The following analysis was performed using SQL:
-
-* Total Sales and Profit calculation
-* Category-wise Sales Analysis
-* City-wise Performance Analysis
-* Daily Sales Trend
-* Monthly Sales Analysis
+* Total Sales and Profit
+* Category-wise Sales
+* City-wise Performance
+* Daily and Monthly Trends
 * Profit Margin Calculation
+
+---
+
+## 📈 Dashboard Features (Power BI)
+
+* KPI Cards (Total Sales, Total Profit)
+* Bar Charts (Category & City Analysis)
+* Line Chart (Sales Trend)
+* Slicer (Category Filter)
 
 ---
 
 ## 📁 Files Included
 
-* `sales_data.csv` → Dataset used for analysis
-* `Sales_clean.sql` → SQL queries for cleaning and analysis
+* `sales_data.csv` → Dataset
+* `Sales_clean.sql` → SQL queries
+* `it.pbix` → Power BI file
+* `dashboard.png` → Dashboard preview
 
 ---
 
 ## 💡 Key Insights
 
 * Electronics category generated the highest sales
-* Mumbai showed strong sales performance
-* Sales varied across different dates
-* Profit margins differed across categories
+* Mumbai showed strongest performance
+* Sales trend fluctuates over time
+* Profit margins vary across categories
 
 ---
 
 ## 🚀 Conclusion
 
-This project demonstrates how SQL can be used for data cleaning, validation, and analysis to extract meaningful insights from raw data.
+This project demonstrates end-to-end data analysis, from data cleaning using SQL to visualization using Power BI.
 
 ---
 
 ## 🔗 Future Improvements
 
 * Add advanced SQL queries (joins, window functions)
-* Integrate with Power BI for visualization
-* Expand dataset for deeper insights
+* Include larger dataset
+* Add predictive analysis
