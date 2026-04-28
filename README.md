@@ -2,16 +2,16 @@
 
 ## 📌 Overview
 
-This project analyzes sales data using SQL and visualizes insights using Power BI. The goal is to clean raw data, perform analysis, and present insights through an interactive dashboard.
+This project demonstrates end-to-end data analysis using SQL and Power BI. The objective is to clean raw sales data, perform analysis using SQL queries, and visualize insights through an interactive Power BI dashboard.
 
 ---
 
 ## 🎯 Objectives
 
-* Clean and validate data using SQL
-* Perform data analysis using SQL queries
-* Create an interactive dashboard using Power BI
-* Generate meaningful business insights
+* Perform data cleaning and validation using SQL
+* Analyze sales performance using aggregation queries
+* Build an interactive dashboard for visualization
+* Extract meaningful business insights
 
 ---
 
@@ -20,6 +20,14 @@ This project analyzes sales data using SQL and visualizes insights using Power B
 * SQL (MySQL)
 * Power BI
 * CSV Dataset
+
+---
+
+## 🔄 Project Workflow
+
+Raw Data (CSV) → Data Cleaning & Analysis (SQL) → Visualization (Power BI Dashboard)
+
+This workflow ensures data consistency and accurate business insights.
 
 ---
 
@@ -33,10 +41,11 @@ This project analyzes sales data using SQL and visualizes insights using Power B
 
 ## 📊 Data Analysis (SQL)
 
-* Total Sales and Profit
-* Category-wise Sales
-* City-wise Performance
-* Daily and Monthly Trends
+* Total Sales and Profit calculation
+* Category-wise Sales Analysis
+* City-wise Performance Analysis
+* Daily Sales Trend
+* Monthly Sales Analysis
 * Profit Margin Calculation
 
 ---
@@ -53,29 +62,34 @@ This project analyzes sales data using SQL and visualizes insights using Power B
 ## 📁 Files Included
 
 * `sales_data.csv` → Dataset
-* `Sales_clean.sql` → SQL queries
-* `it.pbix` → Power BI file
-* `dashboardbi.png` → Dashboard preview
+* `sales_analysis.sql` → SQL queries for cleaning and analysis
+* `sales_dashboard.pbix` → Power BI dashboard file
+* `dashboard.png` → Dashboard preview
+
+---
+
+## 📷 Dashboard Preview
+<img width="993" height="560" alt="dashboardbi" src="https://github.com/user-attachments/assets/e94a80df-a47a-44c2-b718-3ff812abb94a" />
 
 ---
 
 ## 💡 Key Insights
 
 * Electronics category generated the highest sales
-* Mumbai showed strongest performance
-* Sales trend fluctuates over time
+* Mumbai showed the strongest performance
+* Sales trends fluctuate over time
 * Profit margins vary across categories
 
 ---
 
 ## 🚀 Conclusion
 
-This project demonstrates end-to-end data analysis, from data cleaning using SQL to visualization using Power BI.
+This project demonstrates how SQL and Power BI can be used together to transform raw data into meaningful insights and support data-driven decision-making.
 
 ---
 
 ## 🔗 Future Improvements
 
 * Add advanced SQL queries (joins, window functions)
-* Include larger dataset
-* Add predictive analysis
+* Expand dataset for deeper analysis
+* Include predictive analytics
