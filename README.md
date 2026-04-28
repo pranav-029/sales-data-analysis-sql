@@ -55,7 +55,7 @@ This project analyzes sales data using SQL and visualizes insights using Power B
 * `sales_data.csv` → Dataset
 * `Sales_clean.sql` → SQL queries
 * `it.pbix` → Power BI file
-* `dashboard.png` → Dashboard preview
+* `dashboardbi.png` → Dashboard preview
 
 ---
 
